@@ -17,3 +17,5 @@ jobs:
           date
           whoami
           df -h
+      - name: Run shell script
+        run: bash scripts/system-info.sh
