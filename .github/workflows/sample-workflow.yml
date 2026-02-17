@@ -19,3 +19,5 @@ jobs:
           df -h
       - name: Run shell script
         run: bash scripts/system-info.sh
+      - name: List repository files
+        run: ls -la
